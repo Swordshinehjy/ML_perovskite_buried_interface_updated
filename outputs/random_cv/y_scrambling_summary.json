@@ -1,0 +1,45 @@
+{
+  "model": "random_cv",
+  "label": "Random split + CV",
+  "split": "random",
+  "cv_protocol": "cv",
+  "fold_name": "KFold",
+  "observed_basis": "plain CV out-of-fold with the deployed hyperparameters; for nested models this is the train.py 'cv' block, not the per-outer-fold nested parameters",
+  "n_scrambles": 200,
+  "n_train": 188,
+  "folds": 5,
+  "params": {
+    "n_estimators": 500,
+    "max_depth": 7,
+    "learning_rate": 0.003582668380477315,
+    "subsample": 0.891370098602826,
+    "colsample_bytree": 0.5140598136201725,
+    "min_child_weight": 1,
+    "gamma": 0.13172406630752387,
+    "reg_alpha": 0.004494155267737683,
+    "reg_lambda": 0.25913437415567797
+  },
+  "observed": {
+    "RMSE": 1.1972845062364448,
+    "MAE": 0.8532433730414573,
+    "Pearson_r": 0.34994531361106945,
+    "R2": 0.1211377301931168,
+    "Spearman_rho": 0.2513444823374054,
+    "n": 188
+  },
+  "stats": {
+    "p_Pearson_r": 0.004975124378109453,
+    "z_Pearson_r": 4.78771546606866,
+    "null_mean_Pearson_r": -0.003588099451701415,
+    "null_std_Pearson_r": 0.07384177601370033,
+    "p_R2": 0.004975124378109453,
+    "z_R2": 4.106481226065101,
+    "null_mean_R2": -0.12569628211636685,
+    "null_std_R2": 0.06010839906992686,
+    "p_RMSE": 0.004975124378109453,
+    "z_RMSE": -4.342196220986508,
+    "null_mean_RMSE": 1.3545441542653736,
+    "null_std_RMSE": 0.036216614824744336,
+    "baseline_rmse": 1.277135427446757
+  }
+}

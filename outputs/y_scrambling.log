@@ -1,0 +1,39 @@
+2026-09-29 11:44:03 | INFO    | >>> [random_cv] Random split + CV | 188 training rows | 5 folds | 200 permutations
+2026-09-29 11:44:05 | INFO    |     observed: RMSE=1.1973  r=0.3499  R2=0.1211
+2026-09-29 11:45:07 | INFO    |     scrambled 50/200
+2026-09-29 11:46:11 | INFO    |     scrambled 100/200
+2026-09-29 11:47:13 | INFO    |     scrambled 150/200
+2026-09-29 11:48:14 | INFO    |     scrambled 200/200
+2026-09-29 11:48:14 | INFO    |     null r    = -0.0036 +/- 0.0738 | observed r = 0.3499 | p = 0.00498
+2026-09-29 11:48:14 | INFO    |     null RMSE = 1.3545 +/- 0.0362 | observed   = 1.1973 | p = 0.00498
+2026-09-29 11:48:15 | INFO    | >>> [random_nested] Random split + NestedCV | 188 training rows | 5 folds | 200 permutations
+2026-09-29 11:48:16 | INFO    |     observed: RMSE=1.2633  r=0.2535  R2=0.0216
+2026-09-29 11:49:10 | INFO    |     scrambled 50/200
+2026-09-29 11:50:07 | INFO    |     scrambled 100/200
+2026-09-29 11:51:04 | INFO    |     scrambled 150/200
+2026-09-29 11:51:59 | INFO    |     scrambled 200/200
+2026-09-29 11:51:59 | INFO    |     null r    = -0.0068 +/- 0.0716 | observed r = 0.2535 | p = 0.00498
+2026-09-29 11:51:59 | INFO    |     null RMSE = 1.3929 +/- 0.0420 | observed   = 1.2633 | p = 0.00995
+2026-09-29 11:52:00 | INFO    | >>> [group_cv] Group split + CV | 191 training rows | 5 folds | 200 permutations
+2026-09-29 11:52:01 | INFO    |     observed: RMSE=1.2691  r=0.2729  R2=0.0738
+2026-09-29 11:52:46 | INFO    |     scrambled 50/200
+2026-09-29 11:53:31 | INFO    |     scrambled 100/200
+2026-09-29 11:54:16 | INFO    |     scrambled 150/200
+2026-09-29 11:55:02 | INFO    |     scrambled 200/200
+2026-09-29 11:55:02 | INFO    |     null r    = 0.0080 +/- 0.0734 | observed r = 0.2729 | p = 0.00498
+2026-09-29 11:55:02 | INFO    |     null RMSE = 1.3546 +/- 0.0241 | observed   = 1.2691 | p = 0.00498
+2026-09-29 11:55:03 | INFO    | >>> [group_nested] Group split + NestedCV | 191 training rows | 5 folds | 200 permutations
+2026-09-29 11:55:03 | INFO    |     observed: RMSE=1.3144  r=0.2244  R2=0.0065
+2026-09-29 11:55:14 | INFO    |     scrambled 50/200
+2026-09-29 11:55:25 | INFO    |     scrambled 100/200
+2026-09-29 11:55:36 | INFO    |     scrambled 150/200
+2026-09-29 11:55:47 | INFO    |     scrambled 200/200
+2026-09-29 11:55:47 | INFO    |     null r    = -0.0008 +/- 0.0737 | observed r = 0.2244 | p = 0.00498
+2026-09-29 11:55:47 | INFO    |     null RMSE = 1.4185 +/- 0.0379 | observed   = 1.3144 | p = 0.00498
+2026-09-29 11:55:48 | INFO    | Y-scrambling summary
+2026-09-29 11:55:48 | INFO    |         model                   label  n_scrambles  obs_RMSE  null_RMSE   p_RMSE  z_RMSE  obs_Pearson_r  null_Pearson_r  p_Pearson_r  z_Pearson_r  obs_R2  null_R2     p_R2
+2026-09-29 11:55:48 | INFO    |     random_cv       Random split + CV          200    1.1973     1.3545 0.004975   -4.34         0.3499         -0.0036     0.004975         4.79  0.1211  -0.1257 0.004975
+2026-09-29 11:55:48 | INFO    | random_nested Random split + NestedCV          200    1.2633     1.3929 0.009950   -3.09         0.2535         -0.0068     0.004975         3.63  0.0216  -0.1906 0.009950
+2026-09-29 11:55:48 | INFO    |      group_cv        Group split + CV          200    1.2691     1.3546 0.004975   -3.54         0.2729          0.0080     0.004975         3.61  0.0738  -0.0556 0.004975
+2026-09-29 11:55:48 | INFO    |  group_nested  Group split + NestedCV          200    1.3144     1.4185 0.004975   -2.75         0.2244         -0.0008     0.004975         3.06  0.0065  -0.1580 0.004975
+2026-09-29 11:55:48 | INFO    | saved -> D:\code\ml-perovskite-buried\buried_interface_nestedCV\outputs\_comparison\y_scrambling_summary.csv

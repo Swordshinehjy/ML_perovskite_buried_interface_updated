@@ -1,0 +1,31 @@
+{
+  "model": "random_nested",
+  "label": "Random split + NestedCV",
+  "n_rows": 222,
+  "n_features": 27,
+  "expected_value": 1.7838839292526245,
+  "top_features": [
+    "control_PCE",
+    "surface_max",
+    "MolLogP",
+    "LUMO_calc",
+    "HOMO_calc",
+    "alkyl_num",
+    "MPI",
+    "surface_min",
+    "PSA",
+    "anchor_end_CA"
+  ],
+  "top_mean_abs_shap": [
+    0.18084365143000172,
+    0.12997494387515895,
+    0.09396195783778534,
+    0.08670967294555183,
+    0.07630439062756465,
+    0.0759465539694747,
+    0.07423502857279533,
+    0.06099819073446073,
+    0.04027516410900028,
+    0.037602151953825005
+  ]
+}

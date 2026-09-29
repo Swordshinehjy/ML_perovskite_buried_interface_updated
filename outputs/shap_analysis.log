@@ -1,0 +1,17 @@
+2026-09-29 11:43:55 | INFO    | SHAP on 222 rows x 27 features
+2026-09-29 11:43:57 | INFO    | [random_cv] top SHAP features: control_PCE=0.136, surface_max=0.087, HOMO_calc=0.073
+2026-09-29 11:43:59 | INFO    | [random_nested] top SHAP features: control_PCE=0.181, surface_max=0.130, MolLogP=0.094
+2026-09-29 11:44:01 | INFO    | [group_cv] top SHAP features: control_PCE=0.091, MPI=0.067, surface_max=0.067
+2026-09-29 11:44:03 | INFO    | [group_nested] top SHAP features: control_PCE=0.207, surface_max=0.159, PSA=0.127
+2026-09-29 11:44:03 | INFO    | cross-model consensus ranking (1 = most important):
+2026-09-29 11:44:03 | INFO    |      1. control_PCE              mean rank 1.00
+2026-09-29 11:44:03 | INFO    |      2. surface_max              mean rank 2.25
+2026-09-29 11:44:03 | INFO    |      3. HOMO_calc                mean rank 4.00
+2026-09-29 11:44:03 | INFO    |      4. MPI                      mean rank 4.75
+2026-09-29 11:44:03 | INFO    |      5. MolLogP                  mean rank 5.00
+2026-09-29 11:44:03 | INFO    |      6. LUMO_calc                mean rank 5.25
+2026-09-29 11:44:03 | INFO    |      7. PSA                      mean rank 7.25
+2026-09-29 11:44:03 | INFO    |      8. surface_min              mean rank 7.75
+2026-09-29 11:44:03 | INFO    |      9. alkyl_num                mean rank 8.50
+2026-09-29 11:44:03 | INFO    |     10. anchor_end_CA            mean rank 10.75
+2026-09-29 11:44:03 | INFO    | SHAP output -> D:\code\ml-perovskite-buried\buried_interface_nestedCV\outputs\_comparison

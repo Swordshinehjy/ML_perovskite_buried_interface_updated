@@ -1,0 +1,31 @@
+{
+  "model": "random_cv",
+  "label": "Random split + CV",
+  "n_rows": 222,
+  "n_features": 27,
+  "expected_value": 1.785179615020752,
+  "top_features": [
+    "control_PCE",
+    "surface_max",
+    "HOMO_calc",
+    "MPI",
+    "MolLogP",
+    "LUMO_calc",
+    "surface_min",
+    "PSA",
+    "alkyl_num",
+    "NumHAcceptors"
+  ],
+  "top_mean_abs_shap": [
+    0.13572517536483025,
+    0.0871481251250533,
+    0.0732909199036553,
+    0.06336958250418927,
+    0.057372743938866,
+    0.05202632362960611,
+    0.048463489250164596,
+    0.04612260335590428,
+    0.03877282904851437,
+    0.03617309308561039
+  ]
+}

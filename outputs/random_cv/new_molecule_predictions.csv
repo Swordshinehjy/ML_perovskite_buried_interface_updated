@@ -1,0 +1,10 @@
+SMILES,label,model,model_label,control_PCE,delta_PCE_pred,PCE_pred
+O=P(O)(O)CCN1c2ccccc2Sc2ccccc21,M01,random_cv,Random split + CV,23.06,2.090250253677368,25.150250253677367
+O=P(O)(O)CCN1c2ccccc2S(=O)(=O)c2ccccc21,M02,random_cv,Random split + CV,23.06,1.8271749019622803,24.88717490196228
+O=C1c2cccc3cccc(c23)C(=O)N1CCP(=O)(O)O,M03,random_cv,Random split + CV,23.06,1.055891752243042,24.11589175224304
+O=P(O)(O)c1ccc(N2c3ccccc3S(=O)(=O)c3ccccc32)cc1,M04,random_cv,Random split + CV,23.06,1.7594375610351562,24.819437561035155
+O=P(O)(O)CCn1c2ccc(Cl)cc2c2cc(Cl)ccc21,M05,random_cv,Random split + CV,22.0,1.731457233428955,23.731457233428955
+O=P(O)(O)CCn1c2ccc(Br)cc2c2cc(Br)ccc21,M06,random_cv,Random split + CV,22.0,1.7840890884399414,23.78408908843994
+O=P(O)(O)CCn1c2ccc(I)cc2c2cc(I)ccc21,M07,random_cv,Random split + CV,22.0,1.794230580329895,23.794230580329895
+O=P(O)(O)c1ccc(-c2c3ccccc3cc3ccccc23)cc1,M08,random_cv,Random split + CV,22.0,1.6805673837661743,23.680567383766174
+O=P(O)(O)CCCCN1C2=CC=C(C#N)C=C2C3=C1C=CC(C#N)=C3,M09,random_cv,Random split + CV,22.0,1.767643928527832,23.767643928527832

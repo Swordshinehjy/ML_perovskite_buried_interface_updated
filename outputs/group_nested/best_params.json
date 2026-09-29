@@ -1,0 +1,79 @@
+{
+  "model": "group_nested",
+  "estimator": "XGBRegressor",
+  "objective": "reg:squarederror",
+  "split": "group",
+  "cv": "nested",
+  "param_selection": "nested CV: independent Optuna search per outer fold (60 trials each); deployed params taken from outer fold 4 (lowest inner CV RMSE = 1.1986)",
+  "best_cv_rmse": 1.1986177009782673,
+  "n_trials": 300,
+  "seed": 42,
+  "search_space": {
+    "n_estimators": {
+      "type": "int",
+      "low": 100,
+      "high": 800,
+      "step": 50
+    },
+    "max_depth": {
+      "type": "int",
+      "low": 2,
+      "high": 8
+    },
+    "learning_rate": {
+      "type": "float",
+      "low": 0.001,
+      "high": 0.2,
+      "log": true
+    },
+    "subsample": {
+      "type": "float",
+      "low": 0.5,
+      "high": 1.0
+    },
+    "colsample_bytree": {
+      "type": "float",
+      "low": 0.5,
+      "high": 1.0
+    },
+    "min_child_weight": {
+      "type": "int",
+      "low": 1,
+      "high": 10
+    },
+    "gamma": {
+      "type": "float",
+      "low": 0.0001,
+      "high": 1.0,
+      "log": true
+    },
+    "reg_alpha": {
+      "type": "float",
+      "low": 0.0001,
+      "high": 10.0,
+      "log": true
+    },
+    "reg_lambda": {
+      "type": "float",
+      "low": 0.0001,
+      "high": 10.0,
+      "log": true
+    }
+  },
+  "params": {
+    "n_estimators": 150,
+    "max_depth": 6,
+    "learning_rate": 0.03723015269623531,
+    "subsample": 0.5170255065657519,
+    "colsample_bytree": 0.9163086646426568,
+    "min_child_weight": 9,
+    "gamma": 0.013168056904689914,
+    "reg_alpha": 0.012349122317226449,
+    "reg_lambda": 0.5990080026395955
+  },
+  "label": "Group split + NestedCV",
+  "n_train": 191,
+  "n_test": 31,
+  "n_outer_folds": 5,
+  "folds_note": "GroupKFold(5)"
+}

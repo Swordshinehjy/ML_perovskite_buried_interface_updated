@@ -1,0 +1,27 @@
+2026-09-29 11:43:45 | INFO    | screening table: 9 molecules (9 unique)
+2026-09-29 11:43:45 | INFO    | [random_cv] delta PCE range 1.056 to 2.090 (mean 1.721)
+2026-09-29 11:43:45 | INFO    | [random_nested] delta PCE range 0.447 to 2.031 (mean 1.710)
+2026-09-29 11:43:46 | INFO    | [group_cv] delta PCE range 1.102 to 2.000 (mean 1.769)
+2026-09-29 11:43:47 | INFO    | [group_nested] delta PCE range 1.537 to 2.300 (mean 2.020)
+2026-09-29 11:43:48 | INFO    |     M01  O=P(O)(O)CCN1c2ccccc2Sc2ccccc21
+2026-09-29 11:43:48 | INFO    |     M02  O=P(O)(O)CCN1c2ccccc2S(=O)(=O)c2ccccc21
+2026-09-29 11:43:48 | INFO    |     M03  O=C1c2cccc3cccc(c23)C(=O)N1CCP(=O)(O)O
+2026-09-29 11:43:48 | INFO    |     M04  O=P(O)(O)c1ccc(N2c3ccccc3S(=O)(=O)c3ccccc32)cc1
+2026-09-29 11:43:48 | INFO    |     M05  O=P(O)(O)CCn1c2ccc(Cl)cc2c2cc(Cl)ccc21
+2026-09-29 11:43:48 | INFO    |     M06  O=P(O)(O)CCn1c2ccc(Br)cc2c2cc(Br)ccc21
+2026-09-29 11:43:48 | INFO    |     M07  O=P(O)(O)CCn1c2ccc(I)cc2c2cc(I)ccc21
+2026-09-29 11:43:48 | INFO    |     M08  O=P(O)(O)c1ccc(-c2c3ccccc3cc3ccccc23)cc1
+2026-09-29 11:43:48 | INFO    |     M09  O=P(O)(O)CCCCN1C2=CC=C(C#N)C=C2C3=C1C=CC(C#N)=C3
+2026-09-29 11:43:48 | INFO    | delta PCE predictions by model:
+2026-09-29 11:43:48 | INFO    | model  random_cv  random_nested  group_cv  group_nested
+2026-09-29 11:43:48 | INFO    | label                                                  
+2026-09-29 11:43:48 | INFO    | M01        2.090          2.031     1.987         2.252
+2026-09-29 11:43:48 | INFO    | M02        1.827          1.857     1.788         1.920
+2026-09-29 11:43:48 | INFO    | M03        1.056          0.447     1.102         1.537
+2026-09-29 11:43:48 | INFO    | M04        1.759          1.778     1.730         2.045
+2026-09-29 11:43:48 | INFO    | M05        1.731          1.829     1.916         2.142
+2026-09-29 11:43:48 | INFO    | M06        1.784          1.961     1.985         2.269
+2026-09-29 11:43:48 | INFO    | M07        1.794          1.947     2.000         2.300
+2026-09-29 11:43:48 | INFO    | M08        1.681          1.572     1.638         1.847
+2026-09-29 11:43:48 | INFO    | M09        1.768          1.966     1.775         1.866
+2026-09-29 11:43:48 | INFO    | saved -> D:\code\ml-perovskite-buried\buried_interface_nestedCV\outputs\_comparison

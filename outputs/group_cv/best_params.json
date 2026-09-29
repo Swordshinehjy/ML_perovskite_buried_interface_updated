@@ -1,0 +1,79 @@
+{
+  "model": "group_cv",
+  "estimator": "XGBRegressor",
+  "objective": "reg:squarederror",
+  "split": "group",
+  "cv": "cv",
+  "param_selection": "single Optuna search (150 trials) on the training split; objective = mean GroupKFold RMSE",
+  "best_cv_rmse": 1.2550581626909092,
+  "n_trials": 150,
+  "seed": 42,
+  "search_space": {
+    "n_estimators": {
+      "type": "int",
+      "low": 100,
+      "high": 800,
+      "step": 50
+    },
+    "max_depth": {
+      "type": "int",
+      "low": 2,
+      "high": 8
+    },
+    "learning_rate": {
+      "type": "float",
+      "low": 0.001,
+      "high": 0.2,
+      "log": true
+    },
+    "subsample": {
+      "type": "float",
+      "low": 0.5,
+      "high": 1.0
+    },
+    "colsample_bytree": {
+      "type": "float",
+      "low": 0.5,
+      "high": 1.0
+    },
+    "min_child_weight": {
+      "type": "int",
+      "low": 1,
+      "high": 10
+    },
+    "gamma": {
+      "type": "float",
+      "low": 0.0001,
+      "high": 1.0,
+      "log": true
+    },
+    "reg_alpha": {
+      "type": "float",
+      "low": 0.0001,
+      "high": 10.0,
+      "log": true
+    },
+    "reg_lambda": {
+      "type": "float",
+      "low": 0.0001,
+      "high": 10.0,
+      "log": true
+    }
+  },
+  "params": {
+    "n_estimators": 300,
+    "max_depth": 7,
+    "learning_rate": 0.003538223871241848,
+    "subsample": 0.5518925598403964,
+    "colsample_bytree": 0.6361332179103774,
+    "min_child_weight": 1,
+    "gamma": 0.000567972968152339,
+    "reg_alpha": 0.00043167166906663245,
+    "reg_lambda": 0.001860369621307895
+  },
+  "label": "Group split + CV",
+  "n_train": 191,
+  "n_test": 31,
+  "n_outer_folds": 5,
+  "folds_note": "GroupKFold(5)"
+}

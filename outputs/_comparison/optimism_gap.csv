@@ -1,0 +1,3 @@
+split,gap_RMSE,plain_RMSE,nested_RMSE,gap_Pearson_r,plain_Pearson_r,nested_Pearson_r,gap_R2,plain_R2,nested_R2
+random,0.0793,1.1973,1.2765,0.1828,0.3499,0.1672,0.1202,0.1211,0.0009
+group,0.0987,1.2691,1.3678,0.1589,0.2729,0.114,0.1497,0.0738,-0.076

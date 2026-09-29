@@ -1,0 +1,10 @@
+SMILES,label,model,model_label,control_PCE,delta_PCE_pred,PCE_pred
+O=P(O)(O)CCN1c2ccccc2Sc2ccccc21,M01,group_cv,Group split + CV,23.06,1.986741542816162,25.04674154281616
+O=P(O)(O)CCN1c2ccccc2S(=O)(=O)c2ccccc21,M02,group_cv,Group split + CV,23.06,1.7875562906265259,24.847556290626525
+O=C1c2cccc3cccc(c23)C(=O)N1CCP(=O)(O)O,M03,group_cv,Group split + CV,23.06,1.1019277572631836,24.161927757263182
+O=P(O)(O)c1ccc(N2c3ccccc3S(=O)(=O)c3ccccc32)cc1,M04,group_cv,Group split + CV,23.06,1.7300273180007935,24.790027318000792
+O=P(O)(O)CCn1c2ccc(Cl)cc2c2cc(Cl)ccc21,M05,group_cv,Group split + CV,22.0,1.9158532619476318,23.915853261947632
+O=P(O)(O)CCn1c2ccc(Br)cc2c2cc(Br)ccc21,M06,group_cv,Group split + CV,22.0,1.984989047050476,23.984989047050476
+O=P(O)(O)CCn1c2ccc(I)cc2c2cc(I)ccc21,M07,group_cv,Group split + CV,22.0,1.999982476234436,23.999982476234436
+O=P(O)(O)c1ccc(-c2c3ccccc3cc3ccccc23)cc1,M08,group_cv,Group split + CV,22.0,1.6383916139602661,23.638391613960266
+O=P(O)(O)CCCCN1C2=CC=C(C#N)C=C2C3=C1C=CC(C#N)=C3,M09,group_cv,Group split + CV,22.0,1.7752068042755127,23.775206804275513

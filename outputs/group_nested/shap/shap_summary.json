@@ -1,0 +1,31 @@
+{
+  "model": "group_nested",
+  "label": "Group split + NestedCV",
+  "n_rows": 222,
+  "n_features": 27,
+  "expected_value": 1.7778165340423584,
+  "top_features": [
+    "control_PCE",
+    "surface_max",
+    "PSA",
+    "HOMO_calc",
+    "LUMO_calc",
+    "MPI",
+    "MolLogP",
+    "surface_min",
+    "MetalOxide_TiO2",
+    "anchor_end_CA"
+  ],
+  "top_mean_abs_shap": [
+    0.20685542537411256,
+    0.15924103198329675,
+    0.12657604281798945,
+    0.11610095004702138,
+    0.0859214303362695,
+    0.08502476593728077,
+    0.08488409879390856,
+    0.08042862687730817,
+    0.07772351407890653,
+    0.06634250615496894
+  ]
+}
